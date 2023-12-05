@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet"href="style.css">
+    <script src="https://kit.fontawesome.com/2d239e5d03.js" 
+    crossorigin="anonymous"></script>
+    <script src="contact.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="project.html">Project</a>
+            <a href="goals.html">Goals</a>
+           
+        </nav>
+
+    <div class="section">
+        <h2>Contact Information</h2>
+        <p>Feel free to reach out to us using the form below:</p>
+    </div>
+    <div class="icons">
+        <button type="button"onclick="location.href='https://www.youtube.com/channel/UCmekdmAgQa6YeUSEu-spbNA "class="button">
+        <i class="fa-brands fa-youtube "></i>
+        </button>
+        <button type="button" onclick="location.href='https://www.facebook.com/profile.php?id=61554004210886'"class="button">
+        <i class="fa-brands fa-square-facebook"></i>
+    </button>
+    <button type="button"  onclick="location.href='https://instagram.com/sweeperstide?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=='"class="button"> <i class="fa-brands fa-twitter"></i>
+    </button>
+    <button type="button" onclick="location.href='https://instagram.com/sweeperstide?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=='"class="button"> <i class="fa-brands fa-instagram"></i>
+    </button>
+    </div>
+
+    <div class="contact-form">
+        <form action="connect.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="content">Message:</label>
+            <textarea id="content" name="content" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2023 Tidesweeper. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
